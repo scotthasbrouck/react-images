@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { css, StyleSheet } from 'aphrodite/no-important';
 import ScrollLock from 'react-scrolllock';
+import ExifImage from './ExifImage';
 
 import theme from './theme';
 import Arrow from './components/Arrow';
@@ -224,13 +225,13 @@ class Lightbox extends Component {
 					https://fb.me/react-unknown-prop is resolved
 					<Swipeable onSwipedLeft={this.gotoNext} onSwipedRight={this.gotoPrev} />
 				*/}
-				<img
+				<ExifImage
 					className={css(classes.image)}
 					onClick={!!onClickImage && onClickImage}
-					sizes={sizes}
-					alt={image.alt}
-					src={image.src}
-					srcSet={srcset}
+					/* sizes={sizes} */
+					/* alt={image.alt} */
+					urlValue={image.src}
+					/* srcSet={srcset} */
 					style={{
 						cursor: this.props.onClickImage ? 'pointer' : 'auto',
 						maxHeight: `calc(100vh - ${heightOffset})`,
