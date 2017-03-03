@@ -1,6 +1,6 @@
 # React Images
 
-## Forked from [!https://github.com/jossmac/react-images](https://github.com/jossmac/react-images)
+## Forked from [https://github.com/jossmac/react-images](https://github.com/jossmac/react-images)
 ## Rotates image to propery orientation based on EXIF data
 
 [![Join the chat at https://gitter.im/react-images/Lobby](https://badges.gitter.im/react-images/Lobby.svg)](https://gitter.im/react-images/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
